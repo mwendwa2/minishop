@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,10 +28,7 @@
                     <label for="quantity">Quantity Sold:</label>
                     <input type="number" id="quantity" placeholder="e.g. 2">
                 </div>
-                <div>
-                    <label for="sell-unit">Unit:</label>
-                    <input type="text" id="sell-unit" placeholder="e.g., kg, liter, ml">
-                </div>
+             
                 <div>
                     <label for="price">Price per Item (in KSH):</label>
                     <input type="number" id="price" placeholder="e.g. 70" disabled>
@@ -65,9 +63,6 @@
                 <input type="number" id="initial-quantity" placeholder="e.g. 10">
             </div>
             <div class="form-group">
-                <label for="unit">Unit:</label>
-                <input type="text" id="unit" placeholder="e.g., kg, liter, ml">
-            </div>
             <button id="add-product-btn" onclick="addProduct()">Add Product</button>
             <button id="update-product-btn" onclick="updateProduct()" style="display:none;">Update Product</button>
             <button id="cancel-edit-btn" onclick="cancelEdit()" style="display:none;">Cancel</button>
@@ -85,5 +80,4 @@
     <script src="index.js"></script>
 </body>
 </html>
-
 
