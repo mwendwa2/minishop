@@ -30,13 +30,13 @@ Clone the repository:
     git clone https://github.com/mwendwa2/minishop.git
     cd advanced-shop-sales-tracker
 
-2.Install the dependencies:
+2.I Installed the dependencies:
 
     bash
 
     npm install
 
-3.Set up the database:
+3.I Set up the database:
 
     Ensure MongoDB is running.
     Create a .env file in the root directory and add your MongoDB URI:
@@ -45,13 +45,13 @@ Clone the repository:
 
     MONGODB_URI=mongodb://localhost:27017/sales
 
-4.Run the server:
+4.I Run the server:
 
     bash
 
     npm start
 
-5.Open the application:
+5.i Opened the application:
 
     Open your browser and navigate to 'http://localhost:3000'.
 
