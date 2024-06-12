@@ -7,7 +7,7 @@ Features
     1.Sales Tracking: Log sales, manage sales records, and track total sales and profit.
     2.Product Management: Add, edit, and delete products, set buying and selling prices, and manage stock levels.
     3.Real-Time Analytics: Visual representation of sales and profit data over time using interactive charts.
-    4.Notifications: Receive alerts when stock levels are low.
+    4.Notifications: Receive alerts when stock levels are low,When you you delete a product and when you add a new product.
 
 Technology Stack
 
@@ -21,39 +21,6 @@ Prerequisites
     1.Node.js and npm installed on your system.
     2.MongoDB installed and running.
 
-Setup Instructions
-
-Clone the repository:
-
-    bash
-
-    git clone https://github.com/mwendwa2/minishop.git
-    cd advanced-shop-sales-tracker
-
-2.I Installed the dependencies:
-
-    bash
-
-    npm install
-
-3.I Set up the database:
-
-    Ensure MongoDB is running.
-    Create a .env file in the root directory and add your MongoDB URI:
-
-    bash
-
-    MONGODB_URI=mongodb://localhost:27017/sales
-
-4.I Run the server:
-
-    bash
-
-    npm start
-
-5.i Opened the application:
-
-    Open your browser and navigate to 'http://localhost:3000'.
 
   Usage
 Sales Tracker
