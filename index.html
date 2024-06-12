@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advanced Shop Sales Tracker</title>
     <link rel="stylesheet" href="index.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <div class="container">
@@ -28,7 +27,6 @@
                     <label for="quantity">Quantity Sold:</label>
                     <input type="number" id="quantity" placeholder="e.g. 2">
                 </div>
-             
                 <div>
                     <label for="price">Price per Item (in KSH):</label>
                     <input type="number" id="price" placeholder="e.g. 70" disabled>
@@ -63,9 +61,10 @@
                 <input type="number" id="initial-quantity" placeholder="e.g. 10">
             </div>
             <div class="form-group">
-            <button id="add-product-btn" onclick="addProduct()">Add Product</button>
-            <button id="update-product-btn" onclick="updateProduct()" style="display:none;">Update Product</button>
-            <button id="cancel-edit-btn" onclick="cancelEdit()" style="display:none;">Cancel</button>
+                <button id="add-product-btn" onclick="addProduct()">Add Product</button>
+                <button id="update-product-btn" onclick="updateProduct()" style="display:none;">Update Product</button>
+                <button id="cancel-edit-btn" onclick="cancelEdit()" style="display:none;">Cancel</button>
+            </div>
             <h3>Product List:</h3>
             <input type="text" id="product-search" placeholder="Search products..." oninput="searchProducts()">
             <ul id="product-list"></ul>
@@ -76,8 +75,8 @@
             <canvas id="profit-chart"></canvas>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
+
 
