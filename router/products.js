@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const productRoutes = require('.models/Product'); // Path to your Product.js file
+const productRoutes = require('/.models/Product'); // Path to your Product.js file
 
 const app = express();
 const port = 3000;
